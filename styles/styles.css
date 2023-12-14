@@ -1,50 +1,72 @@
 
 {
-    font:ARIAL 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10em;
 }
 
 body{
-    background-color: rgba(165, 42, 42, 0.788);
+    background-color: rgba(194, 13, 13, 0.774);
     text-align: center;
 }
 div{
-background-color: rgb(199, 218, 223);
-padding: 10px 30px;
-border: 10px solid rgb(181, 190, 49);
+background-color: rgb(245, 240, 240);
+padding: 10px 40px;
+border: 2px solid rgba(224, 23, 90, 0.13);
 margin: 20px 40px;
-}
-
-h3{
-    color: blueviolet;
 }
 
 h1{
     font-size: 3em;
-   
+    color: rgb(35, 38, 190);
+    text-align:center;
 }
+
+h2{
+    color: rgb(240, 218, 25);
+    font-size: 3em;
+}
+
+h3{
+    color: rgb(226, 43, 180);
+    font-size: 40px;
+
+}
+
+
 a:hover {
-    color: blue;
+    color: rgb(25, 128, 50);
     text-decoration: dotted;
     font-size: 1.5em;
-    border: 2px solid red;
+    border: 2px solid rgb(156, 59, 88);
     margin: 20px 40px;
 }
 
 a:visited {
-    color: rgb(226, 43, 150);
+    color: rgb(126, 26, 84);
 }
 {
     .main-container{
-        background-color: blanchedalmond;
+        background-color: rgba(176, 181, 182, 0.747);
         width: 100vw;
         height: 80vh;
         overflow: hidden;
     }
 }
 
+#im-0:hover{
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+#im-2: hover{
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
 img:hover {
     border-radius: 50px;
-    height: 250px;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -54,26 +76,24 @@ img:hover {
     list-style-type: disc;
 }
 
-#u-list{
-    list-style-type:none;;
+#u-list-1{
+    list-style-type:square;
+    font-size: 20px;
 }
 
-
-p{
-    color: rgba(0, 38, 255, 0.87);
-}
-h1{
-    color: blue;
-}
-h2{
-    color: rgb(49, 226, 43);
+#u-list-2{
+    list-style-type:circle;
+    font-size: 20px;
 }
 
-h1{
-    text-align:center;
+#o-list{
+    list-style-type:decimal;
+    font-size: 20px;
 }
 
 p{
-text-align: justify;
+    color: rgba(4, 5, 10, 0.692);
+    text-align: justify;
+    font-size: 25px;
 }
 ...
