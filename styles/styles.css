@@ -1,0 +1,79 @@
+
+{
+    font:ARIAL 
+}
+
+body{
+    background-color: rgba(165, 42, 42, 0.788);
+    text-align: center;
+}
+div{
+background-color: rgb(199, 218, 223);
+padding: 10px 30px;
+border: 10px solid rgb(181, 190, 49);
+margin: 20px 40px;
+}
+
+h3{
+    color: blueviolet;
+}
+
+h1{
+    font-size: 3em;
+   
+}
+a:hover {
+    color: blue;
+    text-decoration: dotted;
+    font-size: 1.5em;
+    border: 2px solid red;
+    margin: 20px 40px;
+}
+
+a:visited {
+    color: rgb(226, 43, 150);
+}
+{
+    .main-container{
+        background-color: blanchedalmond;
+        width: 100vw;
+        height: 80vh;
+        overflow: hidden;
+    }
+}
+
+img:hover {
+    border-radius: 50px;
+    height: 250px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.links {
+    color: rgb(182, 127, 255);
+    text-decoration: none;
+    list-style-type: disc;
+}
+
+#u-list{
+    list-style-type:none;;
+}
+
+
+p{
+    color: rgba(0, 38, 255, 0.87);
+}
+h1{
+    color: blue;
+}
+h2{
+    color: rgb(49, 226, 43);
+}
+
+h1{
+    text-align:center;
+}
+
+p{
+text-align: justify;
+}
+...
